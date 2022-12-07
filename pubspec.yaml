@@ -34,6 +34,8 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  universal_platform: ^1.0.0+1
+  card_scanner: ^0.2.2
 
 dev_dependencies:
   flutter_test:
@@ -58,7 +60,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
+  assets:
+      - lib/assets/images/background.jpg
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
@@ -74,6 +77,24 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   # fonts:
+  fonts:
+    - family: bevietnampro
+      fonts:
+        - asset: lib/assets/fonts/bevietnampro_black.ttf
+        - asset: lib/assets/fonts/bevietnampro_extrabold.ttf
+        - asset: lib/assets/fonts/bevietnampro_medium.ttf
+
+    - family: outfit
+      fonts:
+        - asset: lib/assets/fonts/outfit_extrabold.ttf
+        - asset: lib/assets/fonts/outfit_regular.ttf
+        - asset: lib/assets/fonts/outfit_medium.ttf
+
+    - family: roboto
+      fonts:
+        - asset: lib/assets/fonts/roboto_light.ttf
+        - asset: lib/assets/fonts/roboto_regular.ttf
+        - asset: lib/assets/fonts/roboto_medium.ttf
   #   - family: Schyler
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf
