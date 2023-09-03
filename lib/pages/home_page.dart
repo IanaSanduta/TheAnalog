@@ -38,12 +38,6 @@ class _HomePageState extends State<HomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            RaisedButton(
-              onPressed: () async {
-                scanCard();
-              },
-              child: Text('scan card'),
-            ),
             //Text('$_cardDetails'),
             //Expanded(
             /*child: OptionConfigureWidget(
